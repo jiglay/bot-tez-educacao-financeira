@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFF9FE !important;
+    color: #525252 !important;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 10%;
+}
+
+a {
+    color: #525252 !important;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+span, span>a {
+    font-size: 0.875rem;
+}
+
+header {
+    margin-top: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #8E009A;
+}
+
+df-messenger {
+    --df-messenger-bot-message: white;
+    --df-messenger-button-titlebar-color: #AF019E;
+    --df-messenger-chat-background-color: white;
+    --df-messenger-font-color: black;
+    --df-messenger-send-icon: #FAF5FB;
+    --df-messenger-user-message: #fbdff8;
+  }
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.home_img {
+    height: 176px;
+    width: 176px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.home_text {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.home_desc, a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    padding-top: 80px;
+}
+
+.home_equipe {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    padding-top: 40px;
+}
